@@ -7,7 +7,6 @@ import {
 } from "./types";
 import { Dispatch } from "redux";
 import axios from "axios";
-import { instance } from "../../api/axios.config";
 
 const fetchTicketsSuccess = (data: any[]) => ({
   type: fetchTicketsTypes.FETCH_TICKETS_SUCCESS,
